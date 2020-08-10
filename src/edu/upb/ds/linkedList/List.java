@@ -1,4 +1,4 @@
-package edu.upb.ds.listsactivity;
+package edu.upb.ds.linkedList;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -78,20 +78,6 @@ public class List implements ListInterface,Iterable<ListNode>{
     @Override
     public boolean add(Object object)
     {
-        /*
-        if(head==null){
-            head = new ListNode(object);
-            tail = head;
-        }
-        else
-        {
-            ListNode temporalNode=head;
-            ListNode newNode=new ListNode(object);
-            newNode.linkNext(temporalNode);
-            head=newNode;
-        }
-        size ++;
-        */
         try {
             if(isEmpty()) {
                 head=new ListNode(object);

@@ -1,4 +1,4 @@
-package edu.upb.ds.listsactivity;
+package edu.upb.ds.linkedList;
 
 public class ListNode {
     private Object object;
